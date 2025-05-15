@@ -1,0 +1,33 @@
+.header-img{
+    background: url(../assets/more/15.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70px;
+}
+.banner-img{
+    background: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0.1)),url(../assets/more/3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.card-coffee{
+    background: url(../assets/more/1.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width:100%;
+    padding: auto;
+}
+
+.footer-down{
+    background: url(../assets/more/24.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    object-fit: cover;
+}
