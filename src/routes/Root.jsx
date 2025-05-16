@@ -6,6 +6,7 @@ import UpdateCoffee from "../components/UpdateCoffee";
 import CoffeeDetails from "../components/CoffeeDetails";
 import SignUp from "../components/SignUp";
 import Users from "../components/Users";
+import SignIn from "../components/SignIn";
 
 export const router =createBrowserRouter([
     {
@@ -33,6 +34,10 @@ export const router =createBrowserRouter([
             {
                 path:'/signUp',
                 Component:SignUp
+            },
+            {
+                path:'/signIn',
+                Component:SignIn
             },
             {
                 path:'/users',

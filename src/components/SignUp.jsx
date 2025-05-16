@@ -49,6 +49,7 @@ const SignUp = () => {
   return (
     <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mx-auto">
       <div className="card-body">
+        <h1 className="text-center text-4xl font-semibold">Sign Up Now </h1>
         <form onSubmit={handleSignUp} className="fieldset">
           <label className="label">Name</label>
           <input type="text" name="name" className="input" placeholder="Name" />
@@ -69,7 +70,7 @@ const SignUp = () => {
           <label className="label">Photo</label>
           <input
             type="text"
-            name="text"
+            name="photo"
             className="input"
             placeholder="Photo Url"
           />

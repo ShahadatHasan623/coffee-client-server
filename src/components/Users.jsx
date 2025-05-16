@@ -45,7 +45,7 @@ const Users = () => {
             <th>No</th>
             <th>Name</th>
             <th>Phone</th>
-            <th>Favorite Color</th>
+            <th>Email</th>
             <th></th>
           </tr>
         </thead>
@@ -58,7 +58,7 @@ const Users = () => {
                   <div className="avatar">
                     <div className="mask mask-squircle h-12 w-12">
                       <img
-                        src={user.text}
+                        src={user.photo}
                         alt="Avatar Tailwind CSS Component"
                       />
                     </div>
@@ -70,7 +70,7 @@ const Users = () => {
                 </div>
               </td>
               <td>{user.phone}</td>
-              <td>Purple</td>
+              <td>{user.email}</td>
               <th>
                 <button className="btn btn-xs">Details</button>
                 <button className="btn btn-xs">Veiw</button>
