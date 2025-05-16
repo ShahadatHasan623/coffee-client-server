@@ -29,12 +29,16 @@ const AddCoffee = () => {
           });
           form.reset();
         }
-        console.log("after coffee in the db", data);
       });
   };
   return (
     <div>
-      <Link to='/' className="mt-20 ml-25 text-2xl flex items-center gap-1 mb-2"><IoIosArrowRoundBack /> Back To Home</Link>
+      <Link
+        to="/"
+        className="mt-20 ml-25 text-2xl flex items-center gap-1 mb-2"
+      >
+        <IoIosArrowRoundBack /> Back To Home
+      </Link>
       <div className="p-24  space-y-5 bg-[#F4F3F0] max-w-6xl mx-auto min-h-[calc(100vh-117px)] mb-20 rounded-2xl">
         <div className="text-center px-12  space-y-2">
           <h1 className="text-2xl font-bold">Add New Coffee</h1>
@@ -112,7 +116,7 @@ const AddCoffee = () => {
             />
           </fieldset>
 
-          <input className="btn w-full" type="submit" value="Add Coffee" />
+          <Link to='/' className="btn w-full" type="submit" value="Add Coffee" />
         </form>
       </div>
     </div>
