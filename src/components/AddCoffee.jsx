@@ -116,7 +116,7 @@ const AddCoffee = () => {
             />
           </fieldset>
 
-          <Link to='/' className="btn w-full" type="submit" value="Add Coffee" />
+          <Link to='/' className="btn w-full" type="submit">Add Coffee</Link>
         </form>
       </div>
     </div>
