@@ -15,7 +15,7 @@ export const router =createBrowserRouter([
         children:[
             {
                 index:true,Component:Home,
-                loader:()=>fetch('http://localhost:3000/coffees')
+                loader:()=>fetch('https://coffee-store-server-nine-liard.vercel.app/coffees')
             },
             {
                 path:'/addCoffee',
@@ -23,13 +23,13 @@ export const router =createBrowserRouter([
             },
             {
                 path:'/update/:id',
-                loader:({params})=>fetch(`http://localhost:3000/coffees/${params.id}`),
+                loader:({params})=>fetch(`https://coffee-store-server-nine-liard.vercel.app/coffees/${params.id}`),
                 Component:UpdateCoffee
             },
             {
                 path:'/details/:id',
                 Component:CoffeeDetails,
-                loader:({params})=>fetch(`http://localhost:3000/coffees/${params.id}`)
+                loader:({params})=>fetch(`https://coffee-store-server-nine-liard.vercel.app/coffees/${params.id}`)
             },
             {
                 path:'/signUp',
@@ -41,7 +41,7 @@ export const router =createBrowserRouter([
             },
             {
                 path:'/users',
-                loader:()=>fetch('http://localhost:3000/users'),
+                loader:()=>fetch('https://coffee-store-server-nine-liard.vercel.app/users'),
                 Component:Users
             }
         ]
